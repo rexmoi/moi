@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: none;
+}
+body {
+	background-color: gray;
+	height: 10vh;
+	background-size: cover;
+	background-position: center;
+}
+header {
+	color: black;
+	background-color: White;
+	height: 10vh;
+	
+}
+ ul {
+ 	list-style-type: none;
+ 	float: right;
+ 	margin-top: 25px;
+ }
+ ul li {
+ 	display: inline-block;
+ }
+ ul li a {
+ 	text-decoration: none;
+ 	color: green;
+ 	padding: 5px 20px;
+ 	border: 1px solid transparent;
+ 	transition: 0.10 ease;
+
+ }
+ ul li.active a{
+ 	background-color: orange;
+ 	color: #000;
+ }
+ ul li a:hover{
+ 	background-color: orange;
+ 	color: #000;
+ }
+ .logo img{
+ 	float: left;
+ 	width: 150px;
+ 	height: auto;
+ 	margin-top: 20px;
+ }
+ .main{
+ 	max-width: 1200px;
+ 	margin: auto;
+ }
+ .title{
+ 	color: gray;
+ 	position: absolute;
+ 	top: 20%;
+ 	left: 50%;
+ 	transform: translate(-50%,-50%);
+ }
+ h1.header{
+ 	font-family: Algerian;
+ 	font-size: 300%;
+ 	text-shadow: 3px 4px white;
+ }
+ 
+ section{
+ 	float: center;
+ 	margin-top: 5%;
+ 	margin-left: 15%;
+ 	margin-right: 20%;
+ }
+ .data{
+ 	font-family: algerian;
+ 	font-size: 250%;
+ 	color: black;
+ 	margin-left: 25%;
+ }
+ footer{
+ 	background-color: white;
+ 	font-family: Arial;
+ 	font-size: 25px;
+ 	height: 5vh;
+ 	float: bottom;
+ }
+ p.footer{
+ 	text-align: center;
+ 	color: black;
+ 	font-family: French Script MT;
+ }
